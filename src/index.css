@@ -81,6 +81,7 @@ nav a:hover {
   padding: 30px 10px; /* Adjusted padding for smaller screens */
   text-align: center;
   position: relative;
+  padding-bottom: 10px;
 }
 
 .hero-content {
