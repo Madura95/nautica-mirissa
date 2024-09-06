@@ -1,0 +1,104 @@
+/* Managemenu.css */
+
+/* Container for the entire page */
+.manage-menu {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header styling */
+  .manage-menu h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form container for adding new items */
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Form group styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Menu items styling */
+  .menu-items {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-i{
+    margin: 10px;
+  }
+  
+  .menu-items h2 {
+    margin-top: 0;
+  }
+  
+  .menu-items p {
+    margin: 5px 0;
+  }
+  
+  .menu-items button {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .menu-items > div {
+    margin-bottom: 20px;
+  }
+  
+  /* Edit form styling */
+  .edit-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  

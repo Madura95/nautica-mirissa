@@ -1,0 +1,21 @@
+.menu-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+  }
+  
+  .menu-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .menu-container p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .menu-item{
+    padding: 10px;
+  }

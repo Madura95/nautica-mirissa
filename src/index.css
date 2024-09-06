@@ -1,0 +1,193 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  box-shadow: -1px 13px 23px -1px rgba(0,0,0,0.75);
+  margin-bottom: 30px;
+  
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  gap: 30px; /* Space between the logo and heading */
+  
+}
+
+.logo {
+  height: 90px; /* Adjust the size as needed */
+}
+.logo-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(0, 44, 109);
+}
+
+nav {
+  margin-top: 10px;
+   /* Space between heading and navigation */
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column; /* Stack nav items vertically on small screens */
+  gap: 10px;
+}
+nav ul li {
+  display: flex; /* Block display for stacked layout */
+}
+.login-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+.login-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0149B2ff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover if desired */
+}
+
+#hero {
+  margin-top: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px 10px; /* Adjusted padding for smaller screens */
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the content within the hero section */
+}
+
+#hero h2 {
+  font-weight: bold;
+  font-size: 36px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+}
+
+#hero p {
+  font-weight: bold;
+  font-size: 18px; /* Adjust font size as needed */
+  margin-top: 10px; /* Adjust space between h2 and p */
+}
+
+#featured-dishes {
+  padding: 10px;
+  color: rgb(0, 34, 83);
+}
+
+.dishes {
+  display: flex;
+  flex-direction: column; /* Stack dishes vertically on small screens */
+  align-items: center;
+}
+
+.dish {
+  text-align: center;
+  margin: 10px;
+  max-width: 90%; /* Adjusted width for smaller screens */
+  background-color: #AEC4E2ff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dish-image {
+  width: 100%;
+  max-width: 150px; /* Adjusted max width for images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+
+#about {
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+footer {
+  background-color: rgb(1, 35, 87);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+.map {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.map iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  header {
+    flex-direction: row; /* Horizontal layout for larger screens */
+  }
+  .logo {
+    height: 90px; /* Original size for larger screens */
+    margin-bottom: 0; /* Remove bottom margin for larger screens */
+  }
+  h1 {
+    font-size: 24px; /* Original font size for larger screens */
+  }
+  nav ul {
+    flex-direction: row; /* Horizontal layout for navigation on larger screens */
+    gap: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  .dishes {
+    flex-direction: row; /* Row layout for dishes on larger screens */
+    flex-wrap: wrap;
+  }
+  .dish {
+    max-width: 250px; /* Original width for dishes */
+  }
+  #hero {
+    padding: 50px 20px; /* Original padding for larger screens */
+  }
+  #hero p {
+    font-size: 24px; /* Original font size for larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Additional styles for even larger screens */
+}

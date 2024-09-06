@@ -1,0 +1,19 @@
+.manage-users {
+    padding: 20px;
+  }
+  
+  .users-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .user-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-item p {
+    margin: 0;
+  }

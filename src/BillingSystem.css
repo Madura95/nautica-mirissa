@@ -1,0 +1,118 @@
+/* BillingPage.css */
+.billing-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-div, .right-div {
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.left-div {
+  background-color: #f9f9f9;
+}
+
+.right-div {
+  background-color: #fff;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .billing-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left-div, .right-div {
+    width: 48%;
+  }
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.menu-select, .quantity-select, .service-charge-change {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.bill-items, .bill-preview-items {
+  margin-bottom: 20px;
+}
+
+.bill-item, .bill-preview-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.finish-button, .cancel-button {
+  width: 48%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.finish-button {
+  background-color: #28a745; /* Green */
+}
+
+.finish-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  background-color: #dc3545; /* Red */
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}
+
+.totals p {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 16px;
+}

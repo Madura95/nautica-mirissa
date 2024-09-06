@@ -1,0 +1,71 @@
+/* Admin.css */
+.admin-container {
+  padding: 20px;
+}
+
+.admin-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.admin-container ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin-container ul li {
+  width: 100%;
+}
+
+.admin-container ul li a,
+.admin-container ul li button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-container ul li a:hover,
+.admin-container ul li button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.admin-container ul li button {
+  border: none;
+  cursor: pointer;
+}
+
+.admin-container ul li button:focus,
+.admin-container ul li a:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .admin-container ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .admin-container ul li {
+    margin: 10px;
+  }
+
+  .admin-container ul li a,
+  .admin-container ul li button {
+    max-width: none;
+  }
+}
